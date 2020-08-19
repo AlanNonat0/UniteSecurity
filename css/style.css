@@ -1,0 +1,17 @@
+header{height: 300px; width: 100%;}
+.logo img{padding-left: 13em;}
+nav{position: absolute; left: 30px; bottom: 0px; top: 270px;}
+nav ul li{float: left; color:#fff; width: auto; margin: 0.8em; font-size: 1.5em; font-family:'Verdana'; list-style:none;}
+nav ul li a{text-decoration: none; color: #bbb;}
+nav ul li a:hover{color: blue;}
+section img{width: 100%;}
+
+body{
+    background-image: url(../src/bg01.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backface-visibility: inherit;
+    
+}
+h1{color: white;}
