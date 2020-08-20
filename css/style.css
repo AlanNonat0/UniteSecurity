@@ -1,17 +1,104 @@
+/*TOPO*/
 header{height: 300px; width: 100%;}
 .logo img{padding-left: 13em;}
 nav{position: absolute; left: 30px; bottom: 0px; top: 270px;}
 nav ul li{float: left; color:#fff; width: auto; margin: 0.8em; font-size: 1.5em; font-family:'Verdana'; list-style:none;}
 nav ul li a{text-decoration: none; color: #bbb;}
 nav ul li a:hover{color: blue;}
-section img{width: 100%;}
+
+
+/*BODY*/
 
 body{
     background-image: url(../src/bg01.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    backface-visibility: inherit;
-    
 }
-h1{color: white;}
+
+.titulo{
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+}
+.slog{
+    margin-top: -20px;
+    color: white;
+}
+#cadastro, #LogIn{
+    margin: auto;
+    width: 900px;
+    height: 200px;
+}
+legend, label{
+	font-family:arial;
+	font-size:12px;
+    font-weight:bold;
+    color: white;
+}
+label{
+	width:70px;
+	height:30px;
+	display:inline-table;
+	text-align:right;
+	margin-right:10px;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+}
+#cadastrar{
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+#logar{
+    margin: 0px 0px 0% 39.2%;
+}
+label b{
+    color: red;
+}
+fieldset{
+    opacity: 0.8;
+    margin-left: 5%;
+    margin-bottom:5%;
+}
+fieldset p{
+    font-family:arial;
+	font: size 25;px;
+    font-weight:bold;
+    color: white;
+    margin-left: 30%;
+}
+#nick, #name{
+    margin-top: 5%;
+}
+
+/*label{
+    margin-left: 30%;
+}*/
+form{
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+#img_pessoal{
+    background-image: url(../src/pessoal2.png);
+    background-size: 30%;
+    float: left;
+    width: 40%;
+}
+#img_log{
+    background-image: url(../src/login2.png);
+    background-size: 17%;
+    float: left;
+    width: 40%;
+    padding-bottom: auto ;
+}
+#img_log, #img_pessoal{
+    background-position: bottom right ;
+    background-repeat: no-repeat;
+}
+
+/*FOOTER*/
