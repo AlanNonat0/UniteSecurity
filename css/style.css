@@ -66,22 +66,13 @@ fieldset{
 }
 fieldset p{
     font-family:arial;
-	font-size: 25px;
+    font-size: 25px;
     font-weight:bold;
     color: white;
     margin-left: 30%;
 }
 #nick, #name{
     margin-top: 5%;
-}
-
-/*label{
-    margin-left: 30%;
-}*/
-form{
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
 }
 #img_pessoal{
     background-image: url(../src/pessoal2.png);
