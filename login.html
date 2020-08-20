@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>United Security© - Produtos</title>
+    <title>United Security© - Login</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div id="master">
         <header>
             <div class="logo">
-                <a href="index.html"><img src="src/logo.png" alt="United Security©"></a>
+                <a href="index.html"><img src="src/logo.png" alt="United Security©" title="United Security©"></a>
 
             </div>
             
@@ -28,8 +28,17 @@
         </header>
 
         <section>
-            <h1 class="titulo">PRODUTOS</h1>
 
+            <form id="LogIn" action="#" method="POST">
+            <H1 class="titulo">LOGIN</H1>
+            <fieldset>
+                <label for="nick">Login<b>*</b>:</label><input type="text" id="nick" name="nick" placeholder="Nick name ou Email" required/></input><br>
+                <label for="password">Senha<b>*</b>:</label><input type="password" id="password" name="password" placeholder="Digite sua Senha" required><br>
+                <input type="submit" value="Login" id="logar" name="logar">
+                
+                <p>Ainda nao possui sua conta? <a href="cadastro.html"><strong>Cadastre-se!</strong></a></p>
+            </fieldset>
+        </form>
         </section>
 
 
