@@ -1,2 +1,5 @@
-# UniteSecurity
-desenvolvimento acadêmico. Por meio de novas tecnologias agregar conhecimento na área de tecnologia e gestão.
+# UniteSecurityPHP
+Projeto web para uma empresa fictícia feito em PHP com integração a banco a banco de dados local (MySQL). Tal projeto foi proposto pela Universidade Nove de Julho (UNINOVE) como Projeto de aprendizagem e aperfeiçoamento semestral e possui uma versão em Desktop em C#.
+Na versão web PHP contamos com uma tela de início que exemplifica os objetivos da empresa, uma página exclusiva para expor os serviços prestados, um local para entrar em contato onde as mensagens são armazenadas em banco para posteriormente serem respondidas, uma página intitulada "sobre" que conta a história do negócio em questão.
+A aplicação possui sistema de conta de usuários com autenticação por senha. Após ser devidamente cadastrado e efetuar login é possível gerir dados pessoais como telefone e senha de forma simples, segura e intuitiva. A aplicação também possibilita a ativação de serviços conforme a regra de negócio estabelecida e o cancelamento deles.
+O sistema foi desenvolvido em paradigma procedural e separado por módulos como por exemplo modulo de conexão, gerencia de serviços, contato entre outros.
